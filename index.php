@@ -3,8 +3,12 @@
 <body>
 
 <?php
-echo "uttam ganesh archana vinod pratik vishwas shivaraj vishwa  this is the aws devops automation class added into the php file";
-?>
+$t = date("H");
 
+if ($t < "20") {
+    echo "Have a good day!";
+}
+?>
+ 
 </body>
 </html>
